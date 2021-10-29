@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    background-color: beige;
+
+}
+
+.cat-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+.cat-img{
+    margin: 4rem;
+    margin-bottom:10rem;
+    height:15rem;
+    width:15rem;
+}
+
+.cat-container{
+    background-color: goldenrod;
+    margin: 1.5rem;
+    border-radius: 0.7rem;
+    height: 25rem;
+    color: #9A1111;
+    width: 23rem;
+    box-shadow: 2px 3px 21px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.cat-container h1,.cat-container h3{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(145, 9, 36);
+    text-align: center;
+    transition: all 1s;
+    transform: translateY(50px);
+    
+    
+}
+.cat-container h3{
+    font-family: 'Pacifico', cursive;
+    color: rgb(119, 57, 13);
+}
+.cat-container:hover{
+    background-image: linear-gradient(to right top, #289640, #64921c, #8f8a00, #b37e00, #d36e25, #df7124, #ec7522, #f97821, #ec9800, #ceb900, #9bd800, #20f400);    box-shadow: 12px 13px 21px -5px rgb(245 59 59);
+    transform: scale(1.04);
+    transition:all 0.7s;
+}
+
+.cat-container h1{
+    font-size:1.9rem;
+   
+}
+
+
+
+
+
+.cat-container h1:hover{
+    color:pink;
+}
+.cat-container:hover h1{
+    transform: translate(0);
+   
+   
+}
+.cat-container:hover h1{
+    font-size: 1.6rem;
+    text-decoration: none;
+    
+}
+
+.cat-details{
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    top:3rem;
+    opacity:0;
+    transform: translateX(50px);
+    transition:all 1s;
+}
+
+
+
+
+.cat-container:hover .cat-details{
+    transform: translate(0);
+    opacity:1;
+}
+
